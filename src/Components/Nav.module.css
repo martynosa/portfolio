@@ -31,6 +31,11 @@
 @media (max-width: 640px) {
   .nav {
     justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav {
     margin-bottom: 1.6rem;
   }
 }

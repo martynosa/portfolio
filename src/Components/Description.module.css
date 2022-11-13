@@ -37,6 +37,12 @@
 }
 
 @media (max-width: 640px) {
+  .description h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 400px) {
   .description {
     margin-bottom: 1.6rem;
   }
