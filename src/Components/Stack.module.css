@@ -1,0 +1,31 @@
+.stack-container {
+  margin: 0 auto;
+  max-width: 64rem;
+  margin-bottom: 3.6rem;
+}
+
+.stack-container h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid var(--primary-clr);
+  margin-bottom: 1.6rem;
+}
+
+.tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.tech img {
+  width: 4rem;
+}
+
+.stack-container a {
+  display: block;
+  text-align: end;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: inherit;
+}

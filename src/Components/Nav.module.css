@@ -1,0 +1,29 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.6rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 1.2rem 2.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--primary-clr);
+}
+
+.nav img {
+  height: 2.4rem;
+}
