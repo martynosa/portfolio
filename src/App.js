@@ -1,5 +1,5 @@
-import Profile from './Components/Profile';
-import Projects from './Components/Projects';
+import Profile from './Components/Profile/Profile';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
