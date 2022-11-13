@@ -1,6 +1,13 @@
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
 import classes from './Profile.module.css';
 
 const Profile = () => {
+  const [text] = useTypewriter({
+    words: ['Martin Enev'],
+    loop: 0,
+  });
+
   return (
     <div className={classes['profile-container']}>
       <nav className={classes.nav}>
@@ -26,7 +33,8 @@ const Profile = () => {
         <img src="/img/Profile-image-tall.jpg" alt="mugshot" />
 
         <h1>
-          <span>M</span>artin <span>E</span>nev
+          {text}
+          <Cursor cursorColor={'#7048e8'} />
         </h1>
 
         <p>
