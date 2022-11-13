@@ -3,7 +3,6 @@ import classes from './Projects.module.css';
 const Projects = () => {
   return (
     <div className={classes['projects-container']}>
-      <nav className={classes.header}></nav>
       <div className={classes['project-container']}>
         <img
           className={classes.image}

@@ -3,9 +3,7 @@ import classes from './Stack.module.css';
 const Stack = () => {
   return (
     <div className={classes['stack-container']}>
-      <h2>
-        <span>Tech stack</span>
-      </h2>
+      <h2>Tech stack</h2>
       <div className={classes.tech}>
         <img src="./svg/html.svg" alt="html" />
         <img src="./svg/css.svg" alt="css" />

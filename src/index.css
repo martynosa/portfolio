@@ -41,3 +41,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media (max-width: 640px) {
+  .container {
+    display: block;
+  }
+}
