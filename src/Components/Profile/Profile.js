@@ -1,13 +1,13 @@
 import classes from './Profile.module.css';
 
 import Nav from './Nav';
-import Description from './Description';
+import Summary from './Summary/Summary';
 
 const Profile = () => {
   return (
     <div className={classes['profile-container']}>
       <Nav />
-      <Description />
+      <Summary />
     </div>
   );
 };

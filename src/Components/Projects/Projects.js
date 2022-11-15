@@ -2,21 +2,41 @@ import classes from './Projects.module.css';
 
 const Projects = () => {
   return (
-    <div className={classes['projects-container']}>
-      <div className={classes['project-container']}>
-        <img
-          className={classes.image}
-          src="/img/jayson-hinrichsen-PTXO7a35rFY-unsplash.jpg"
-          alt="project screenshot"
-        />
+    <div className={classes['experience-container']}>
+      <div className={classes['nav']}>
+        <div className={classes.content}>
+          <h2 className={classes.title}>Experience</h2>
+
+          <div className={classes['link-group']}>
+            <div className={classes.arrow}>
+              <span>&rarr;</span>
+              <div className={classes.link}>
+                <a href="#certificates">Certificates</a>
+                <div className={classes.border} />
+              </div>
+            </div>
+
+            <div className={classes.arrow}>
+              <span>&rarr;</span>
+              <div className={classes.link}>
+                <a href="#projects">Projects</a>
+                <div className={classes.border} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className={classes['project-container']}>
-        <img
-          className={classes.image}
-          src="/img/olena-sergienko-a54BiGFA9Ws-unsplash.jpg"
-          alt="project screenshot"
-        />
+      <div id="certificates" className={classes.certificates}>
+        <div className={classes.content}>
+          <h2 className={classes.title}>Experience</h2>
+        </div>
+      </div>
+
+      <div id="projects" className={classes.projects}>
+        <div className={classes.content}>
+          <h2 className={classes.title}>projects</h2>
+        </div>
       </div>
     </div>
   );

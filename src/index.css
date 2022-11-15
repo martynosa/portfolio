@@ -4,6 +4,9 @@
   --primary-clr: #7048e8;
   --background-clr: #212529;
   --text-clr: #dee2e6;
+
+  --purple-background-clr: #5f3dc4;
+  --yelow-text-clr: #fcc419;
 }
 
 * {
@@ -15,6 +18,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
