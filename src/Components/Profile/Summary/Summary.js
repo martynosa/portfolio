@@ -3,9 +3,9 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import classes from './Summary.module.css';
 import Stack from './Stack';
 
-const Summary = () => {
+const Summary = ({ name, summary }) => {
   const [text] = useTypewriter({
-    words: ['Martin Enev'],
+    words: [name],
     loop: 0,
   });
 
@@ -23,12 +23,7 @@ const Summary = () => {
       </h1>
 
       <h2 className={classes.question}>Who am I?</h2>
-      <p className={classes.answer}>
-        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-        and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley
-        of type and scrambled it to make a type specimen book.
-      </p>
+      <p className={classes.answer}>{summary}</p>
 
       <Stack />
     </div>

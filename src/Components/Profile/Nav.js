@@ -1,11 +1,11 @@
 import classes from './Nav.module.css';
 
-const Nav = () => {
+const Nav = ({ github, linkedIn }) => {
   return (
     <nav className={classes.nav}>
       <a
         className={classes.link}
-        href="https://github.com/martynosa/"
+        href={github}
         target="_blank"
         rel="noreferrer"
       >
@@ -14,7 +14,7 @@ const Nav = () => {
       </a>
       <a
         className={classes.link}
-        href="https://www.linkedin.com/in/martynosa/"
+        href={linkedIn}
         target="_blank"
         rel="noreferrer"
       >

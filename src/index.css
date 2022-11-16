@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
+  /* PROFILE */
   --primary-clr: #7048e8;
   --background-clr: #212529;
   --text-clr: #dee2e6;
 
-  --purple-background-clr: #5f3dc4;
+  /* light theme */
+  /* --background-clr: #dee2e6;
+  --text-clr: #212529; */
+
+  /* EXPERIENCE */
+  --light-text-clr: #dee2e6;
   --yellow-text-clr: #fcc419;
+  --hover-clr: #adb5bd;
+
+  --blue-background-clr: #1864ab;
+  --grape-background-clr: #862e9c;
+  --cyan-background-clr: #0b7285;
+
+  /* MISC */
+  --shdw-clr: #212529;
 }
 
 * {
