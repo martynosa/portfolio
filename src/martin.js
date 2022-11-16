@@ -8,12 +8,12 @@ const martin = {
   certificates: {
     softuni: [
       {
-        name: 'Programming Basics - September 2020',
+        name: 'Basics - September 2020',
         certificateLink:
           'https://softuni.bg/certificates/details/89217/bead03e7',
       },
       {
-        name: 'Programming Fundamentals with JS - January 2021',
+        name: 'Fundamentals with JS - January 2021',
         certificateLink:
           'https://softuni.bg/certificates/details/103159/3995e03b',
       },

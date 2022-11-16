@@ -41,21 +41,3 @@
     font-size: 3.6rem;
   }
 }
-
-@media (max-width: 400px) {
-  .summary .mugshot {
-    margin-bottom: 0.8rem;
-  }
-
-  .summary .name {
-    margin-bottom: 1.6rem;
-  }
-
-  .summary .question {
-    margin-bottom: 0.8rem;
-  }
-
-  .summary .answer {
-    margin-bottom: 1.6rem;
-  }
-}
