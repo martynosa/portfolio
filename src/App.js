@@ -1,11 +1,11 @@
 import Profile from './Components/Profile/Profile';
-import Projects from './Components/Projects/Projects';
+import Experience from './Components/Experience/Experience';
 
 function App() {
   return (
     <section className="container">
       <Profile />
-      <Projects />
+      <Experience />
     </section>
   );
 }

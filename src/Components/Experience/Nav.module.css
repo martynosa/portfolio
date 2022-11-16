@@ -1,0 +1,81 @@
+.nav {
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: var(--purple-background-clr);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: radial-gradient(var(--background-clr) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -25px -25px;
+}
+
+.nav .content {
+  max-width: 64rem;
+  padding: 0 2.4rem;
+  color: var(--text-clr);
+  text-transform: uppercase;
+  font-weight: 500;
+
+  text-shadow: 3px -3px 1px var(--background-clr);
+}
+
+.nav .content .title {
+  font-size: 6.4rem;
+  color: var(--yellow-text-clr);
+  letter-spacing: 6px;
+  margin-bottom: 3.6rem;
+}
+
+.nav .content .link-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.nav .content .link-group .link a {
+  font-size: 4.8rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s linear;
+}
+
+.nav .content .link-group .link .border {
+  height: 5px;
+  width: 100%;
+  background-color: var(--yellow-text-clr);
+  box-shadow: 3px -3px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* BLINKING ARROW */
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.arrow span {
+  color: var(--yellow-text-clr);
+  opacity: 0;
+  font-size: 3.6rem;
+}
+
+.arrow:hover span {
+  animation: blinker 0.3s linear infinite;
+}
+
+.arrow:hover .link {
+  color: var(--yellow-text-clr);
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,29 @@
+.projects {
+  background-color: #364fc7;
+  max-width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: radial-gradient(var(--background-clr) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -25px -25px;
+}
+
+.projects .content {
+  max-width: 64rem;
+  padding: 0 2.4rem;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--yellow-text-clr);
+  text-shadow: 3px -3px 1px var(--background-clr);
+}
+
+.projects .content .title {
+  font-size: 6.4rem;
+  letter-spacing: 6px;
+  margin-bottom: 3.6rem;
+}
