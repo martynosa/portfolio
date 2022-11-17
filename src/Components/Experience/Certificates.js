@@ -4,12 +4,15 @@ import classes from './Certificates.module.css';
 const Certificates = ({ certificates }) => {
   const id = useId();
 
+  const certificatesArr = [...certificates.softuni, ...certificates.udemy];
+  console.log(certificatesArr);
+
   return (
     <div id="certificates" className={classes.certificates}>
       <div className={classes.content}>
         <h2 className={classes.title}>Certificates</h2>
         <div className={classes['link-group']}>
-          {certificates.softuni.map((c, i) => {
+          {certificatesArr.map((c, i) => {
             return (
               <div className={classes.arrow} key={`${i}-${id}`}>
                 <span>&rarr;</span>

@@ -1,5 +1,5 @@
 .certificates {
-  background-color: var(--grape-background-clr);
+  background-color: var(--teal-background-clr);
   max-width: 100%;
   min-height: 100vh;
 
@@ -37,11 +37,13 @@
 }
 
 .certificates .content .link-group .link {
+  text-align: center;
   font-size: 1.6rem;
   text-shadow: 1px -1px 1px var(--shdw-clr);
   text-decoration: none;
   color: inherit;
   transition: all 0.3s linear;
+  max-width: 32rem;
 
   display: flex;
   align-items: center;
