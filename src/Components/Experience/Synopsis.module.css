@@ -46,6 +46,7 @@
 
 .synopsis .content .link-group .border {
   height: 5px;
+  border-radius: 2px;
   width: 100%;
   background-color: var(--yellow-text-clr);
   box-shadow: 3px -3px 0px var(--shdw-clr);
