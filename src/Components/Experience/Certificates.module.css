@@ -14,7 +14,7 @@
 
 .certificates .content {
   max-width: 64rem;
-  padding: 0 2.4rem;
+  padding: 2.4rem;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--light-text-clr);
@@ -22,6 +22,7 @@
 
 .certificates .content .title {
   font-size: 6.4rem;
+  text-align: center;
   color: var(--yellow-text-clr);
   text-shadow: 3px -3px 1px var(--shdw-clr);
   letter-spacing: 6px;
@@ -39,7 +40,6 @@
 .certificates .content .link-group .link {
   text-align: center;
   font-size: 1.6rem;
-  text-shadow: 1px -1px 1px var(--shdw-clr);
   text-decoration: none;
   color: inherit;
   transition: all 0.3s linear;

@@ -61,5 +61,31 @@ const martin = {
       },
     ],
   },
+  projects: [
+    {
+      name: 'projects-tracker',
+      link: '/projects-tracker',
+      repo: '/repo',
+      summary: 'Lorem ipsum dolor sit amet.',
+    },
+    {
+      name: 'omnifood',
+      link: '/omnifood',
+      repo: '/repo',
+      summary: 'Lorem ipsum dolor sit amet.',
+    },
+    {
+      name: 'weather',
+      link: '/weather',
+      repo: '/repo',
+      summary: 'Lorem ipsum dolor sit amet.',
+    },
+    {
+      name: 'sharingan',
+      link: '/sharingan',
+      repo: '/repo',
+      summary: 'Lorem ipsum dolor sit amet.',
+    },
+  ],
 };
 export default martin;

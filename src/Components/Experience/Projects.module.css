@@ -14,17 +14,67 @@
 
 .projects .content {
   max-width: 64rem;
-  padding: 0 2.4rem;
+  padding: 2.4rem;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--light-text-clr);
-  text-shadow: 3px -3px 1px var(--shdw-clr);
 }
 
 .projects .content .title {
   font-size: 6.4rem;
+  text-align: center;
+  color: var(--yellow-text-clr);
+  text-shadow: 3px -3px 1px var(--shdw-clr);
   letter-spacing: 6px;
   margin-bottom: 3.6rem;
+}
+
+.projects .content .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.projects .content .grid .project {
+  max-width: 32rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  transition: all 0.2s linear;
+}
+
+.projects .content .grid .project h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.projects .content .grid .project img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.6rem;
+}
+
+.projects .content .grid .project p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.projects .content .grid .project .border {
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+  background-color: var(--yellow-text-clr);
+  box-shadow: 2px -2px 0px var(--shdw-clr);
+  transform: scaleX(0);
+  transition: all 0.2s linear;
+}
+
+.projects .content .grid .project:hover .border {
+  transform: scaleX(1);
+}
+
+.projects .content .grid .project:hover {
+  color: var(--yellow-text-clr);
 }
 
 @media (max-width: 420px) {
@@ -32,7 +82,12 @@
     font-size: 3.6rem;
   }
 
-  .projects .content .link-group .link {
-    font-size: 1.6rem;
+  .projects .content .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.6rem;
+  }
+
+  .projects .content .grid .project {
+    max-width: 24rem;
   }
 }
