@@ -20,6 +20,7 @@ const Certificates = ({ certificates }) => {
                   rel="noreferrer"
                 >
                   {c.name}
+                  <div className={classes.border} />
                 </a>
                 <span>&larr;</span>
               </div>

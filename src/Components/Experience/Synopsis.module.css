@@ -1,7 +1,7 @@
 .synopsis {
+  background-color: var(--blue-background-clr);
   max-width: 100%;
   min-height: 100vh;
-  background-color: var(--blue-background-clr);
 
   display: flex;
   align-items: center;
@@ -18,12 +18,12 @@
   text-transform: uppercase;
   font-weight: 500;
   color: var(--light-text-clr);
-  text-shadow: 3px -3px 1px var(--shdw-clr);
 }
 
 .synopsis .content .title {
   font-size: 6.4rem;
   color: var(--yellow-text-clr);
+  text-shadow: 3px -3px 1px var(--shdw-clr);
   letter-spacing: 6px;
   margin-bottom: 3.6rem;
 }
@@ -38,18 +38,28 @@
 
 .synopsis .content .link-group .link {
   font-size: 4.8rem;
-  margin-bottom: 0.3rem;
+  text-shadow: 2px -2px 1px var(--shdw-clr);
   text-decoration: none;
   color: inherit;
   transition: all 0.3s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .synopsis .content .link-group .border {
-  height: 5px;
+  height: 4px;
   border-radius: 2px;
   width: 100%;
   background-color: var(--yellow-text-clr);
-  box-shadow: 3px -3px 0px var(--shdw-clr);
+  box-shadow: 2px -2px 0px var(--shdw-clr);
+}
+
+.synopsis .content .link-group .link:hover {
+  color: var(--hover-clr);
 }
 
 /* BLINKING ARROW */

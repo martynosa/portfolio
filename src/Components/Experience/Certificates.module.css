@@ -18,17 +18,12 @@
   text-transform: uppercase;
   font-weight: 500;
   color: var(--light-text-clr);
-  text-shadow: 3px -3px 1px var(--shdw-clr);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .certificates .content .title {
   font-size: 6.4rem;
   color: var(--yellow-text-clr);
+  text-shadow: 3px -3px 1px var(--shdw-clr);
   letter-spacing: 6px;
   margin-bottom: 3.6rem;
 }
@@ -43,9 +38,24 @@
 
 .certificates .content .link-group .link {
   font-size: 1.6rem;
+  text-shadow: 1px -1px 1px var(--shdw-clr);
   text-decoration: none;
   color: inherit;
   transition: all 0.3s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.certificates .content .link-group .border {
+  height: 2px;
+  border-radius: 2px;
+  width: 100%;
+  background-color: var(--yellow-text-clr);
+  box-shadow: 1px -1px 0px var(--shdw-clr);
 }
 
 .certificates .content .link-group .link:hover {

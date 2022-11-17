@@ -13,7 +13,7 @@ const martin = {
           'https://softuni.bg/certificates/details/89217/bead03e7',
       },
       {
-        name: 'Fundamentals with JS - January 2021',
+        name: 'JS Fundamentals - January 2021',
         certificateLink:
           'https://softuni.bg/certificates/details/103159/3995e03b',
       },

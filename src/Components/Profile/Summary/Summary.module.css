@@ -9,7 +9,7 @@
 }
 
 .summary .mugshot {
-  width: 18rem;
+  width: 24rem;
   border-radius: 50%;
   border: 0.6rem solid var(--primary-clr);
   margin-bottom: 1.6rem;

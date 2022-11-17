@@ -9,23 +9,19 @@ const Synopsis = () => {
         <div className={classes['link-group']}>
           <div className={classes.arrow}>
             <span>&rarr;</span>
-            <div>
-              <a className={classes.link} href="#certificates">
-                Certificates
-              </a>
+            <a className={classes.link} href="#certificates">
+              Certificates
               <div className={classes.border} />
-            </div>
+            </a>
             <span>&larr;</span>
           </div>
 
           <div className={classes.arrow}>
             <span>&rarr;</span>
-            <div>
-              <a className={classes.link} href="#projects">
-                Projects
-              </a>
+            <a className={classes.link} href="#projects">
+              Projects
               <div className={classes.border} />
-            </div>
+            </a>
             <span>&larr;</span>
           </div>
         </div>
