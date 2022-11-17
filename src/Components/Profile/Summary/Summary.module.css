@@ -9,7 +9,7 @@
 }
 
 .summary .mugshot {
-  width: 24rem;
+  width: 18rem;
   border-radius: 50%;
   border: 0.6rem solid var(--primary-clr);
   margin-bottom: 1.6rem;
@@ -38,7 +38,7 @@
 
 @media (max-width: 920px) {
   .summary .mugshot {
-    width: 18rem;
+    width: 16rem;
   }
 
   .summary .name {
