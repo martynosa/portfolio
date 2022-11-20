@@ -40,7 +40,7 @@
   text-align: center;
   color: var(--dark-text-clr);
   letter-spacing: 6px;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.6rem;
 
   padding: 0.3rem 0.6rem;
   background-color: var(--yellow-background-clr);
@@ -69,7 +69,6 @@
 @media (max-width: 420px) {
   .container .title {
     font-size: 3.6rem;
-    margin-bottom: 1.2rem;
   }
 
   .grid {
