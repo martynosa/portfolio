@@ -63,28 +63,24 @@ const martin = {
   },
   projects: [
     {
-      name: 'projects-tracker',
-      link: '/projects-tracker',
-      repo: '/repo',
-      summary: 'Lorem ipsum dolor sit amet.',
+      name: 'project-tracker',
+      link: 'https://martynosa-project-tracker.netlify.app/',
+      repo: 'https://github.com/martynosa/project-tracker',
     },
     {
       name: 'omnifood',
-      link: '/omnifood',
-      repo: '/repo',
-      summary: 'Lorem ipsum dolor sit amet.',
+      link: 'https://martynosa-omnifood.netlify.app/',
+      repo: 'https://github.com/martynosa/Build-Responsive-Real-World-Websites-with-HTML-and-CSS',
     },
     {
       name: 'weather',
-      link: '/weather',
-      repo: '/repo',
-      summary: 'Lorem ipsum dolor sit amet.',
+      link: 'https://martynosa-react-weather.netlify.app/',
+      repo: 'https://github.com/martynosa/react-weather-app',
     },
     {
       name: 'sharingan',
-      link: '/sharingan',
-      repo: '/repo',
-      summary: 'Lorem ipsum dolor sit amet.',
+      link: 'https://martynosa-sharingan.netlify.app/',
+      repo: 'https://github.com/martynosa/sharingan',
     },
   ],
 };

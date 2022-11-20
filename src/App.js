@@ -4,12 +4,12 @@ import Experience from './Components/Experience/Experience';
 import martin from './martin';
 
 function App() {
-  const { profile, certificates } = martin;
+  const { profile, certificates, projects } = martin;
 
   return (
     <section className="container">
       <Profile profile={profile} />
-      <Experience certificates={certificates} />
+      <Experience certificates={certificates} projects={projects} />
     </section>
   );
 }

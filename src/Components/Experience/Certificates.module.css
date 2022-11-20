@@ -4,6 +4,7 @@
   min-height: 100vh;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -20,13 +21,18 @@
   color: var(--light-text-clr);
 }
 
-.certificates .content .title {
+.certificates .title {
   font-size: 6.4rem;
+  text-transform: uppercase;
   text-align: center;
-  color: var(--yellow-text-clr);
-  text-shadow: 3px -3px 1px var(--shdw-clr);
+  color: var(--dark-text-clr);
   letter-spacing: 6px;
-  margin-bottom: 3.6rem;
+  margin-bottom: 2.4rem;
+
+  padding: 0.3rem 0.6rem;
+  background-color: var(--yellow-background-clr);
+  box-shadow: 4px -4px 0 var(--shdw-clr);
+  border-radius: 6px;
 }
 
 .certificates .content .link-group {
@@ -52,16 +58,8 @@
   gap: 0.3rem;
 }
 
-.certificates .content .link-group .border {
-  height: 2px;
-  border-radius: 2px;
-  width: 100%;
-  background-color: var(--yellow-text-clr);
-  box-shadow: 1px -1px 0px var(--shdw-clr);
-}
-
 .certificates .content .link-group .link:hover {
-  color: var(--hover-clr);
+  color: var(--yellow-text-clr);
 }
 
 /* BLINKING ARROW */
@@ -89,8 +87,9 @@
 }
 
 @media (max-width: 420px) {
-  .certificates .content .title {
+  .certificates .title {
     font-size: 3.6rem;
+    margin-bottom: 1.2rem;
   }
 
   .certificates .content .link-group .link {

@@ -3,12 +3,12 @@ import classes from './Experience.module.css';
 import Synopsis from './Synopsis';
 import Projects from './Projects';
 
-const Experience = ({ certificates }) => {
+const Experience = ({ certificates, projects }) => {
   return (
     <div className={classes['experience-container']}>
       <Synopsis />
       <Certificates certificates={certificates} />
-      <Projects />
+      <Projects projects={projects} />
     </div>
   );
 };

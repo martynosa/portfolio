@@ -5,12 +5,11 @@ const Certificates = ({ certificates }) => {
   const id = useId();
 
   const certificatesArr = [...certificates.softuni, ...certificates.udemy];
-  console.log(certificatesArr);
 
   return (
     <div id="certificates" className={classes.certificates}>
+      <h2 className={classes.title}>Certificates</h2>
       <div className={classes.content}>
-        <h2 className={classes.title}>Certificates</h2>
         <div className={classes['link-group']}>
           {certificatesArr.map((c, i) => {
             return (
@@ -23,7 +22,6 @@ const Certificates = ({ certificates }) => {
                   rel="noreferrer"
                 >
                   {c.name}
-                  <div className={classes.border} />
                 </a>
                 <span>&larr;</span>
               </div>

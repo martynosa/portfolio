@@ -3,21 +3,17 @@
 :root {
   /* PROFILE */
   --primary-clr: #7048e8;
-  --background-clr: #212529;
-  --text-clr: #dee2e6;
-
-  /* light theme */
-  /* --background-clr: #dee2e6;
-  --text-clr: #212529; */
+  --light-background-clr: #dee2e6;
+  --dark-background-clr: #212529;
+  --light-text-clr: #dee2e6;
+  --dark-text-clr: #212529;
+  --yellow-text-clr: #f59f00;
 
   /* EXPERIENCE */
-  --light-text-clr: #dee2e6;
-  --yellow-text-clr: #fcc419;
-  --hover-clr: #adb5bd;
-
   --blue-background-clr: #1864ab;
   --teal-background-clr: #087f5b;
   --cyan-background-clr: #0b7285;
+  --yellow-background-clr: #f59f00;
 
   /* MISC */
   --shdw-clr: #212529;
@@ -41,7 +37,7 @@ body {
 
   font-family: 'Rubik', sans-serif;
 
-  background-color: var(--background-clr);
+  background-color: var(--dark-background-clr);
 }
 
 ::-webkit-scrollbar {
@@ -52,7 +48,7 @@ body {
   background-color: var(--primary-clr);
   border-radius: 16px;
 
-  border: 3px solid var(--background-clr);
+  border: 3px solid var(--dark-background-clr);
 }
 
 .container {
