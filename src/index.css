@@ -2,12 +2,11 @@
 
 :root {
   /* PROFILE */
-  --primary-clr: #7048e8;
+  --primary-clr: #f59f00;
   --light-background-clr: #dee2e6;
   --dark-background-clr: #212529;
   --light-text-clr: #dee2e6;
   --dark-text-clr: #212529;
-  --yellow-text-clr: #f59f00;
 
   /* EXPERIENCE */
   --blue-background-clr: #1864ab;

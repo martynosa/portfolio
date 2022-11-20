@@ -1,27 +1,31 @@
-import classes from './Synopsis.module.css';
+import { useId } from 'react';
+
+import expClasses from './Experience.module.css';
+
+import Link from './Reusable/Link';
 
 const Synopsis = () => {
-  return (
-    <div className={classes['synopsis']}>
-      <h2 className={classes.title}>Experience</h2>
-      <div className={classes.content}>
-        <div className={classes['link-group']}>
-          <div className={classes.arrow}>
-            <span>&rarr;</span>
-            <a className={classes.link} href="#certificates">
-              Certificates
-            </a>
-            <span>&larr;</span>
-          </div>
+  const id = useId();
 
-          <div className={classes.arrow}>
-            <span>&rarr;</span>
-            <a className={classes.link} href="#projects">
-              Projects
-            </a>
-            <span>&larr;</span>
-          </div>
-        </div>
+  const pages = [
+    { name: 'Certificates', link: '#certificates' },
+    { name: 'Projects', link: '#projects' },
+  ];
+
+  return (
+    <div className={`${expClasses.container} ${expClasses.synopsis}`}>
+      <h2 className={expClasses.title}>Experience</h2>
+      <div className={expClasses['link-group']}>
+        {pages.map((p, i) => {
+          return (
+            <Link
+              item={p}
+              key={`${i}-${id}`}
+              helperClass={expClasses['synopsis-link']}
+              newTab={false}
+            />
+          );
+        })}
       </div>
     </div>
   );

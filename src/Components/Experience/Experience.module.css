@@ -1,0 +1,79 @@
+.container {
+  background-color: var(--teal-background-clr);
+  max-width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: radial-gradient(var(--shdw-clr) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -25px -25px;
+}
+
+.synopsis {
+  background-color: var(--blue-background-clr);
+}
+
+.synopsis-link {
+  font-size: 3.6rem;
+}
+
+.certificates {
+  background-color: var(--teal-background-clr);
+}
+
+.certificates-link {
+  font-size: 1.6rem;
+}
+
+.projects {
+  background-color: var(--cyan-background-clr);
+}
+
+.container .title {
+  font-size: 6.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--dark-text-clr);
+  letter-spacing: 6px;
+  margin-bottom: 2.4rem;
+
+  padding: 0.3rem 0.6rem;
+  background-color: var(--yellow-background-clr);
+  box-shadow: 4px -4px 0 var(--shdw-clr);
+  border-radius: 6px;
+}
+
+.link-group {
+  max-width: 64rem;
+  padding: 2.4rem;
+  font-weight: 500;
+  color: var(--light-text-clr);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+@media (max-width: 420px) {
+  .container .title {
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.6rem;
+  }
+}

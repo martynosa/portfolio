@@ -19,7 +19,7 @@ const Summary = ({ name, summary }) => {
 
       <h1 className={classes.name}>
         {text}
-        <Cursor cursorColor={'#7048e8'} />
+        <Cursor cursorColor={'#f59f00'} />
       </h1>
 
       <h2 className={classes.question}>Who am I?</h2>
