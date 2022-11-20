@@ -1,0 +1,41 @@
+.arrow-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.arrow-link a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  transition: all 0.3s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.arrow-link span {
+  color: var(--primary-clr);
+  opacity: 0;
+}
+
+/* HOVER */
+.arrow-link a:hover {
+  color: var(--primary-clr);
+  cursor: pointer;
+}
+
+.arrow-link:hover span {
+  animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 1;
+  }
+}
