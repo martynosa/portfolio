@@ -2,6 +2,7 @@
   background-color: var(--teal-background-clr);
   max-width: 100%;
   min-height: 100vh;
+  padding: 1.2rem 2.4rem;
 
   display: flex;
   flex-direction: column;
@@ -49,7 +50,6 @@
 
 .link-group {
   max-width: 64rem;
-  padding: 2.4rem;
   font-weight: 500;
   color: var(--light-text-clr);
 
