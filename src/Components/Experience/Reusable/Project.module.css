@@ -1,8 +1,8 @@
 .project {
   max-width: 32rem;
+  padding: 0.3rem 0.6rem;
   color: var(--light-text-clr);
   text-decoration: none;
-  padding: 0.6rem 1.2rem;
   border-radius: 6px;
   transition: all 0.2s linear;
 }

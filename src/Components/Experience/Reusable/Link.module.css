@@ -1,11 +1,4 @@
 .arrow-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-}
-
-.arrow-link a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -15,8 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.6rem;
 }
 
 .arrow-link span {
@@ -25,7 +17,7 @@
 }
 
 /* HOVER */
-.arrow-link a:hover {
+.arrow-link:hover {
   color: var(--primary-clr);
   cursor: pointer;
 }

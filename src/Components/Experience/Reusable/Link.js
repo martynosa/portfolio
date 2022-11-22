@@ -5,13 +5,16 @@ const Link = ({ item, helperClass, newTab }) => {
   if (helperClass) arrowLinkClass = `${arrowLinkClass} ${helperClass}`;
 
   return (
-    <div className={arrowLinkClass}>
+    <a
+      className={arrowLinkClass}
+      href={item.link}
+      target={newTab ? '_blank' : ''}
+      rel="noreferrer"
+    >
       <span>&rarr;</span>
-      <a href={item.link} target={newTab ? '_blank' : ''} rel="noreferrer">
-        {item.name}
-      </a>
+      {item.name}
       <span>&larr;</span>
-    </div>
+    </a>
   );
 };
 
