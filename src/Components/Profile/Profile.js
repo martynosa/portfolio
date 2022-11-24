@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import classes from './Profile.module.css';
 
 import Nav from './Nav';
@@ -6,9 +8,24 @@ import Summary from './Summary/Summary';
 const Profile = ({ profile }) => {
   const { github, linkedIn, name, summary } = profile;
 
+  const [isDark, setIsDark] = useState(false);
+
+  const containerClass = isDark
+    ? classes['profile-container']
+    : `${classes['profile-container']} ${classes['light-mode']}`;
+
+  const switchThemeHandler = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <div className={classes['profile-container']}>
-      <Nav github={github} linkedIn={linkedIn} />
+    <div className={containerClass}>
+      <Nav
+        github={github}
+        linkedIn={linkedIn}
+        switchThemeHandler={switchThemeHandler}
+        isDark={isDark}
+      />
       <Summary name={name} summary={summary} />
     </div>
   );

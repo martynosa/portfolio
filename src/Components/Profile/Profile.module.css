@@ -14,6 +14,11 @@
   left: 0;
 }
 
+.light-mode {
+  background-color: #dee2e6;
+  color: #212529;
+}
+
 @media (max-width: 1024px) {
   .profile-container {
     position: unset;

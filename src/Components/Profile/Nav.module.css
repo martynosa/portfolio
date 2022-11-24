@@ -2,7 +2,15 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 2.4rem;
 }
 
@@ -26,9 +34,38 @@
   height: 2.4rem;
 }
 
-@media (max-width: 1024px) {
-  .nav {
-    margin-bottom: 3.6rem;
+.themeBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.themeBtn:hover {
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-40deg);
+  }
+  20% {
+    transform: rotateZ(20deg);
+  }
+  25% {
+    transform: rotateZ(-20deg);
+  }
+  30% {
+    transform: rotateZ(10deg);
+  }
+  35% {
+    transform: rotateZ(-10deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
   }
 }
 
