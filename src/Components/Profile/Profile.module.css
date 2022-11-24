@@ -15,8 +15,8 @@
 }
 
 .light-mode {
-  background-color: #dee2e6;
-  color: #212529;
+  background-color: var(--light-background-clr);
+  color: var(--dark-background-clr);
 }
 
 @media (max-width: 1024px) {
