@@ -68,9 +68,3 @@
     transform: rotateZ(0);
   }
 }
-
-@media (max-width: 420px) {
-  .nav {
-    justify-content: center;
-  }
-}
