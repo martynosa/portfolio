@@ -1,6 +1,6 @@
 import { useId } from 'react';
 
-import expClasses from './Experience.module.css';
+import classes from './Experience.module.css';
 
 import Link from './Reusable/Link';
 
@@ -13,15 +13,15 @@ const Synopsis = () => {
   ];
 
   return (
-    <div className={`${expClasses.container} ${expClasses.synopsis}`}>
-      <h2 className={expClasses.title}>Experience</h2>
-      <div className={expClasses['link-group']}>
+    <div className={`${classes.container} ${classes.synopsis}`}>
+      <h2 className={classes.title}>Experience</h2>
+      <div className={classes['link-group']}>
         {pages.map((p, i) => {
           return (
             <Link
               item={p}
               key={`${i}-${id}`}
-              helperClass={expClasses['synopsis-link']}
+              helperClass={classes['synopsis-link']}
               newTab={false}
             />
           );

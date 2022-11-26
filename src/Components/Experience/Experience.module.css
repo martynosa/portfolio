@@ -60,6 +60,14 @@
   gap: 2.4rem;
 }
 
+.link-group .organization {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  align-self: flex-start;
+  border-bottom: 3px solid var(--primary-clr);
+  margin-bottom: 1.6rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

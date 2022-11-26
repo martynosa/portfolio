@@ -1,26 +1,33 @@
 import { useId } from 'react';
 
-import expClasses from './Experience.module.css';
+import classes from './Experience.module.css';
 
 import Link from './Reusable/Link';
 
 const Certificates = ({ certificates }) => {
   const id = useId();
 
-  const certificatesArr = [...certificates.softuni, ...certificates.udemy];
+  const entries = Object.entries(certificates);
 
   return (
-    <div id="certificates" className={expClasses.container}>
-      <h2 className={expClasses.title}>Certificates</h2>
-      <div className={expClasses['link-group']}>
-        {certificatesArr.map((c, i) => {
+    <div id="certificates" className={classes.container}>
+      <h2 className={classes.title}>Certificates</h2>
+      <div className={classes['link-group']}>
+        {entries.map((e) => {
           return (
-            <Link
-              item={c}
-              key={`${i}-${id}`}
-              helperClass={expClasses['certificates-link']}
-              newTab={true}
-            />
+            <>
+              <h3 className={classes.organization}>{e[0]}</h3>
+              {e[1].map((c, i) => {
+                return (
+                  <Link
+                    item={c}
+                    key={`${i}-${id}`}
+                    helperClass={classes['certificates-link']}
+                    newTab={true}
+                  />
+                );
+              })}
+            </>
           );
         })}
       </div>

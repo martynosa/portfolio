@@ -8,7 +8,7 @@ import Summary from './Summary/Summary';
 const Profile = ({ profile }) => {
   const { github, linkedIn, name, summary } = profile;
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   const containerClass = isDark
     ? classes['profile-container']
