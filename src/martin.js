@@ -46,7 +46,7 @@ const martin = {
         link: 'https://www.udemy.com/certificate/UC-bdf57b7e-7491-443c-b339-bbf21eb7cc51/',
       },
       {
-        name: 'Node.js, Express, MongoDB & More: The Complete Bootcamp 2023',
+        name: 'Node.js, Express, MongoDB & More: The Complete Bootcamp 2022',
         link: 'https://www.udemy.com/certificate/UC-d1ace649-d27d-4788-b357-51f8a76ae612/',
       },
     ],
