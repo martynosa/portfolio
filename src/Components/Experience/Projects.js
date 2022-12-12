@@ -12,7 +12,10 @@ const Projects = ({ projects }) => {
       <h2 className={classes.title}>Projects</h2>
       <div className={classes.grid}>
         {projects.map((p, i) => {
-          return <Project item={p} key={`${i}-${id}`} />;
+          if (p.isVisible) {
+            return <Project item={p} key={`${i}-${id}`} />;
+          }
+          return null;
         })}
       </div>
     </div>

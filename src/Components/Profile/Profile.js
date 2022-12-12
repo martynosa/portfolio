@@ -11,7 +11,7 @@ const Profile = ({ profile }) => {
   const [isDark, setIsDark] = useState(true);
 
   const containerClass = isDark
-    ? classes['profile-container']
+    ? `${classes['profile-container']} ${classes['dark-mode']}`
     : `${classes['profile-container']} ${classes['light-mode']}`;
 
   const switchThemeHandler = () => {

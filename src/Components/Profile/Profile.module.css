@@ -14,9 +14,14 @@
   left: 0;
 }
 
+.dark-mode {
+  background-color: var(--dark-background-clr);
+  color: var(--light-text-clr);
+}
+
 .light-mode {
   background-color: var(--light-background-clr);
-  color: var(--dark-background-clr);
+  color: var(--dark-text-clr);
 }
 
 @media (max-width: 1024px) {

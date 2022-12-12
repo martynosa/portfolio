@@ -18,14 +18,17 @@ const Certificates = ({ certificates }) => {
             <>
               <h3 className={classes.organization}>{e[0]}</h3>
               {e[1].map((c, i) => {
-                return (
-                  <Link
-                    item={c}
-                    key={`${i}-${id}`}
-                    helperClass={classes['certificates-link']}
-                    newTab={true}
-                  />
-                );
+                if (c.isVisible) {
+                  return (
+                    <Link
+                      item={c}
+                      key={`${i}-${id}`}
+                      helperClass={classes['certificates-link']}
+                      newTab={true}
+                    />
+                  );
+                }
+                return null;
               })}
             </>
           );

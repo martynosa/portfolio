@@ -1,0 +1,21 @@
+:root {
+  /* PROFILE */
+  --primary-clr: #f59f00;
+  --light-background-clr: #dee2e6;
+  --dark-background-clr: #212529;
+  --light-text-clr: #dee2e6;
+  --dark-text-clr: #212529;
+
+  /* EXPERIENCE */
+  --blue-background-clr: #1864ab;
+  --teal-background-clr: #087f5b;
+  --cyan-background-clr: #0b7285;
+  --yellow-background-clr: #f59f00;
+
+  /* MISC */
+  --shdw-clr: #212529;
+
+  /* SCROLLBAR */
+  --scrollbar-bg-clr: #fcc419;
+  --scrollbar-clr: #e67700;
+}

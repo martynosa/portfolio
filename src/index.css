@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
-
-:root {
-  /* PROFILE */
-  --primary-clr: #f59f00;
-  --light-background-clr: #dee2e6;
-  --dark-background-clr: #212529;
-  --light-text-clr: #dee2e6;
-  --dark-text-clr: #212529;
-
-  /* EXPERIENCE */
-  --blue-background-clr: #1864ab;
-  --teal-background-clr: #087f5b;
-  --cyan-background-clr: #0b7285;
-  --yellow-background-clr: #f59f00;
-
-  /* MISC */
-  --shdw-clr: #212529;
-}
+@import url(var.css);
 
 * {
   padding: 0;
@@ -35,8 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: 'Rubik', sans-serif;
-
-  background-color: var(--dark-background-clr);
+  background-color: var(--scrollbar-bg-clr);
 }
 
 ::-webkit-scrollbar {
@@ -44,10 +26,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--primary-clr);
+  background-color: var(--scrollbar-clr);
   border-radius: 16px;
 
-  border: 3px solid var(--dark-background-clr);
+  border: 3px solid var(--scrollbar-bg-clr);
 }
 
 .container {
