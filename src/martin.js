@@ -42,6 +42,11 @@ const martin = {
         link: 'https://softuni.bg/certificates/details/147285/5fb03cdc',
         isVisible: true,
       },
+      {
+        name: 'Angular - November 2022',
+        link: 'https://softuni.bg/certificates/details/152920/fea892da',
+        isVisible: true,
+      },
     ],
     udemy: [
       {
