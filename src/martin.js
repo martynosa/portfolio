@@ -64,6 +64,11 @@ const martin = {
         link: 'https://www.udemy.com/certificate/UC-bdf57b7e-7491-443c-b339-bbf21eb7cc51/',
         isVisible: true,
       },
+      {
+        name: 'Understanding TypeScript - 2023 Edition',
+        link: 'https://www.udemy.com/certificate/UC-5d7fbbc3-20a7-4079-a2d8-1d0608f0d3a8/',
+        isVisible: true,
+      },
     ],
   },
   projects: [
