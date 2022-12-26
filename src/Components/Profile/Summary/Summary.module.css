@@ -8,8 +8,13 @@
 
 .summary .mugshot {
   width: 24rem;
+  height: 24rem;
   border-radius: 50%;
   border: 0.6rem solid var(--primary-clr);
+  background-color: var(--primary-clr);
+  background-image: url('/public/img/profile-image-square2-squoosh.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin-bottom: 3.6rem;
 }
 

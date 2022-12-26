@@ -11,11 +11,7 @@ const Summary = ({ name, summary }) => {
 
   return (
     <div className={classes.summary}>
-      <img
-        className={classes.mugshot}
-        src="/img/Profile-image-square2.jpg"
-        alt="mugshot"
-      />
+      <div className={classes.mugshot}></div>
 
       <h1 className={classes.name}>
         {text}
