@@ -42,6 +42,7 @@
 @media (max-width: 420px) {
   .summary .mugshot {
     width: 18rem;
+    height: 18rem;
   }
 
   .summary .name {
